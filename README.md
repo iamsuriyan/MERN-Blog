@@ -6,7 +6,7 @@ Welcome to the MERN Stack Blog Application! This full-stack web application allo
 
 - [Features](#features)
 - [Prerequisites](#prerequisites)
-- [Technologies Used](#technologiesused)
+- [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -29,7 +29,7 @@ Before you begin, ensure you have the following installed:
 - [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 - [mongodb](https://www.mongodb.com/)
 
-## Technologies Used
+## Technologies
 
 ### Frontend
 
