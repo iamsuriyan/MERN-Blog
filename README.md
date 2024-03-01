@@ -97,7 +97,7 @@ Before you begin, ensure you have the following installed:
 
 1. **Create .env file in backend folder:**
 
-  type the following in your .env file
+    type the following in your .env file
   
 - **MONGO_URL:** A link copied from your mongoDB atlas cluster.
 - **PATH:** For backend server
