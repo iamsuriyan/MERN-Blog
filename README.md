@@ -6,7 +6,7 @@ Welcome to the MERN Stack Blog Application! This full-stack web application allo
 
 - [Features](#features)
 - [Prerequisites](#prerequisites)
-- [Technologies Used](#technologies_used)
+- [Technologies Used](#technologiesused)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
