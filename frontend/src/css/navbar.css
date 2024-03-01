@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* overflow: hidden; */
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 700px; */
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background-color: #C6DCBA;
+    gap: 30px;
+    height: 50px;
+    padding: 0px 30px;
+}
+.navBar h1{
+    font-size: 20px;
+}
+.search{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.search input{
+    border: 1px solid #766d6d;
+    border-radius: 5px;
+    padding-inline-start: 10px;
+    width: 100%;
+    height: 30px;
+}
+.navBar2{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.navBar2 h3{
+    font-size: 16px;
+}
+.menuToggler{
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    background-color: #C6DCBA ;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 37px 30px 75px 20px;
+    border-radius: 10px 0px 10px 400px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    /* z-index: 1001 !important; */
+}
+.menuToggler h3{
+    cursor: pointer;
+}
+@media only screen and (max-width:379px){
+    .navBar2{
+        margin-right: 5px;
+    }
+}
+/* @media only screen and (max-width:423px){
+    .navBar{
+        gap: 10px;
+    }
+} */
+@media only screen and (max-width:355px){
+    .navBar{
+        padding: 0 20px;
+    }
+}
+@media only screen and (max-width:450px){
+    .navBar2 {
+        display: none;
+      }
+      .menu-icon {
+        display: none;
+        cursor: pointer;
+        font-size: 25px;
+      }
+}
+@media only screen and (max-width: 450px) {
+    .navBar2 {
+      flex-direction: column;
+      position: absolute;
+      top: 150px;
+      left: 0;
+      right: 0;
+    }
+    .menu-icon {
+      display: block !important;
+      padding-top: 7px;
+    }
+}
+
+@media only screen and (min-width:450px){
+    .toggler{
+        font-size: 20px;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+    }
+}
+@media only screen and (max-width:372px){
+    .search{
+        scale: 0.98;
+    }
+}

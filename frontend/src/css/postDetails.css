@@ -1,0 +1,153 @@
+.maja{
+    display: flex;
+    justify-content: center;
+}
+.circulate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.mainDetails{
+    padding: 65px 30px 10px 30px !important;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contentDetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iconDetails{
+    cursor: pointer;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    color: #888;
+}
+.spacebw{
+    display: flex;
+    gap: 15px;
+}
+.detailImage{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.detailed-desc{
+    letter-spacing: 0.7px;
+    line-height: 25px;
+}
+.categoryDetail{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.contentDetails h1{
+    font-size: 25px;
+    color: #545457;
+}
+.mainCategories{
+    display: flex;
+    gap: 10px;
+    color: black;
+}
+.category1{
+    background-color: #C6DCBA ;
+    padding:5px 5px;
+    border-radius: 10px;
+    border: none;
+    letter-spacing: 1px;
+}
+.comments{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.commentsSection{
+    background-color: #C6DCBA ;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+    letter-spacing: 1px;
+}
+.usernameComment{
+    display: flex;
+    justify-content: space-between;
+}
+.usernameComment h3{
+    font-weight: 400;
+}
+.dateAndTime{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.comment2{
+    padding: 10px 15px;
+    border: 1px solid ;
+    border-radius: 5px;
+}
+.addComment{
+    display: flex;
+    gap: 10px;
+}
+.addComment input{
+    width: 100%;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 2px solid #b9b5b5;
+}
+.addComment button{
+    padding: 5px 30px;
+    background-color: #C6DCBA ;
+    border: 1px solid #C6DCBA ;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 2px #a79c9c;
+    cursor: pointer;
+    transition: box-shadow .4s,background-color 0.4s,transform 1s;
+    color: black;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.addComment button:hover{
+    background-color: #a79c9c;
+    border: 1px solid rgb(35, 26, 26);
+    box-shadow: none;
+    color: black;
+}
+.addComment button:active{
+    transform: scale(0.6);
+}
+.imagediv007{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width:730px){
+    .mainDetails{
+        padding: 65px 0px 10px 0px !important;
+    }
+}
+
+@media only screen and (max-width:538px){
+    .usernameComment{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .dateAndTime{
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width:383px){
+    .addComment button{
+        padding: 5px 10px;
+    }
+}

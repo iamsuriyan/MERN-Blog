@@ -1,0 +1,105 @@
+.mainCreate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+.wrapSmall {
+    max-width: 700px;
+    width: 100%;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.sabari{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
+}
+.categoryCreate{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.categoryCreatePost{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.categoryCreatePost input{
+    padding: 6px;
+    width: 100%;
+    border: 2px solid #b9b5b5;
+    border-radius: 5px;
+}
+.wrapper{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.CategoryType{
+    display: flex;
+    gap: 6px;
+    background-color: #C6DCBA;
+    padding: 3px 10px;
+    align-items: center;
+    border-radius: 4px;
+}
+.cross{
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.buttonForCreate,.postCreateBtn{
+    border: none;
+    background-color: #C6DCBA ;
+    color: black;
+    padding: 6px 20px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 2px #a79c9c;
+    transition: box-shadow .4s,background-color 0.4s,transform 1s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.titlePost{
+    padding: 5px;
+    border: 2px solid #b9b5b5;
+    border-radius: 5px;
+}
+.buttonForCreate:active,.postCreateBtn:active{
+    transform: scale(0.8);
+}
+.sabari textarea{
+    height: 130px;
+    padding: 10px;
+    font-size: 17px;
+    border: 2px solid #b9b5b5;
+    border-radius: 5px;
+}
+.postCreateBtn{
+    padding: 8px 0px;
+    font-size: 20px;
+}
+
+
+.Toastify__toast-container{
+    padding: 0 30px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

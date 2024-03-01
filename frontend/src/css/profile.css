@@ -1,0 +1,57 @@
+.mainProfile{
+    height: 100vh;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.rightProfile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.smallProfileRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+    gap: 25px;
+}
+.smallProfileRight input{
+    width: 100%;
+    padding: 8px 7px;
+    border-radius: 5px;
+    border: 2px solid #b9b5b5;
+}
+.smallProfileRight button {
+    width: 100%; /* Set the button width to 100% of the parent container */
+    padding: 8px 71px;
+    margin-bottom: 20px;
+    background-color: #C6DCBA ;
+    border: 1px solid #C6DCBA ;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 2px #a79c9c;
+    cursor: pointer;
+    transition: box-shadow .4s,background-color 0.4s,transform 1s;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.smallProfileRight button:hover{
+    background-color: #a79c9c;
+    border: 1px solid rgb(35, 26, 26);
+    box-shadow: none;
+    color: black;
+}
+.smallProfileRight button:active{
+    transform: scale(0.9);
+}
+.deleteBtn{
+    background-color: rgba(242, 32, 32, 0.817) !important;
+    border: none !important;
+    color: white !important;
+}

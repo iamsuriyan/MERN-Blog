@@ -1,0 +1,88 @@
+.mainLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.loginDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.loginDiv h1{
+    scale: 0.6;
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.inputBox input{
+    height: 35px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 2px solid #b9b5b5;
+}
+.inputBox button{
+    /* height: 30px; */
+    padding: 7px;
+    background-color: #C6DCBA ;
+    border: 1px solid #C6DCBA ;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 2px #a79c9c;
+    cursor: pointer;
+    transition: box-shadow .4s,background-color 0.4s,transform 1s;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inputBox button:hover{
+    background-color: #a79c9c;
+    border: 1px solid rgb(35, 26, 26);
+    box-shadow: none;
+    color: black;
+}
+.inputBox button:active{
+    transform: scale(0.9);
+}
+.notaUser{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.regLogin{
+    color: rgb(167, 23, 167);
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:445px){
+    .loginDiv{
+        scale: 0.9;
+    }
+}
+@media only screen and (max-width:336px){
+    .loginDiv h1{
+        font-size: 29px !important;
+    }
+}
+
+
+/*custom navbar for login and register*/
+.custom-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.wrong-msg{
+    text-align: center;
+}
+
+.Toastify__toast-container{
+    padding: 0 30px;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
