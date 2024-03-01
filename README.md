@@ -95,7 +95,15 @@ Before you begin, ensure you have the following installed:
 
 ## Usage
 
-1. **Start the development server:**
+1. **Create .env file in backend folder:**
+
+  type the following in your .env file
+  
+- **MONGO_URL:** A link copied from your mongoDB atlas cluster.
+- **PATH:** For backend server
+- **SECRET:** Write a secret key for your jwt
+   
+2. **Start the development server:**
 
     For frontend
    
@@ -110,7 +118,7 @@ Before you begin, ensure you have the following installed:
     npm start
     ```
 
-2. **Open your browser and go to [http://localhost:(host number displayed in your code editor)] to view the MERN-Blog website.**
+3. **Open your browser and go to [http://localhost:(host number displayed in your code editor)] to view the MERN-Blog website.**
 
 ## Contributing
 
